@@ -38,20 +38,6 @@ The dataset `housingUnits.csv` contains the following columns (per row = one hou
 
 ---
 
-## Results Summary
-
-- Standardizing predictors 2 and 3 was necessary to meaningfully compare housing characteristics across blocks of varying size.  
-- Standardizing by number of households was more appropriate than by population (due to logical housing unit relationships).  
-- Median household income was the strongest individual predictor of median house value.  
-- Population and number of households alone were not strong predictors.  
-- The full multiple regression model improved prediction accuracy compared to any single predictor alone.  
-- Collinearity concerns were noted between number of rooms and bedrooms but not strongly between population and households.  
-- Distribution analysis revealed some skewness in the outcome variable, which could affect regression assumptions.
-
-*Include relevant plots and numbers here.*
-
----
-
 ## How to Run
 
 1. Clone the repo:  
